@@ -1,0 +1,63 @@
+.game-card {
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    align-content: center;
+}
+
+body {
+    display: flex;
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.card-header {
+    padding: auto;
+    background-color:teal;
+    
+}
+
+.card-title {
+    text-decoration: none;
+    color:teal;
+}
+
+.card-body {
+    background-color:ivory;
+}
+
+.btn-info {
+    background-color: teal;
+    color:ghostwhite;
+}
+
+.btn-success {
+    background: #1f37a1;
+    color: ghostwhite;
+}
+
+.btn-link {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: larger;
+    color: brown;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+#btnRetry {
+    text-decoration: none;
+}
+
+.card-footer:hover {
+    background-color: rgb(173, 44, 44);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
